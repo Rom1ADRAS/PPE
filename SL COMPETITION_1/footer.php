@@ -1,0 +1,18 @@
+ 
+
+<footer class="footer">
+	<hr>
+	<center>					   
+	 <p> &copy; Copyright 2019 | SL COMPETITION- SAINT-LOUIS |  Site e-Commerce | <a  href =contacter.php> Nous Contacter</a> </p> 
+			<nav id="fmenu">
+				<ul>
+				
+					<p>Téléphone : 02 62 41 84 57 | e-mail : SL-Comptetition@gmail.com</p>
+				
+					
+				</ul>
+			</nav>	
+    </center>                   
+    </footer>
+	
+</html>
