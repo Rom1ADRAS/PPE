@@ -1,0 +1,367 @@
+
+html{
+	margin:0;
+	padding: 0;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+/* Create two columns that float next to eachother */
+.column {
+  float: right;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+.column img{
+	height: 480px;
+	margin: 0;
+	padding: 0;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+body {
+  background-color : white;
+  background-repeat: repeat;
+  background-position: center;
+  background-attachment:fixed;
+}
+h2 {
+	color : black;
+}
+
+p{
+	color : red;
+}
+label{
+	color : black;
+}
+html{
+	margin:0;
+	padding: 0;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+body {
+  
+  
+ 	background: white; 
+
+  
+ 	 background-position: center;
+ 
+ 	 margin:0;
+	padding: 0;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: block;
+	width:100%;
+}
+
+p {
+  font-family: verdana;
+  font-size: 13px;
+  color: red;
+
+}
+
+
+
+
+/* menu deroulant principal */
+
+/* Fin Menu vertical */
+
+
+/* section */
+
+section {
+	float: center;
+	padding :0px;
+	margin: 0px 300px ;
+	display: block;
+	width: 60%;
+}
+
+#section ul {
+	
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	
+}
+#section li {
+	display: inline-block;
+	padding: 0;
+	margin: 0px 20px 0px 0px;
+	width: auto;
+	height: auto;
+	text-align: center;
+	line-height: 40px;
+	
+	
+}
+
+
+
+
+/* fin section */
+
+
+/* Footer */
+.footer {
+	background-color: black;
+	width: 100%;
+	margin:80px 0px 0px 0px;
+	padding: 0;
+	display: block;
+	height: 170px;
+	line-height: 60px;
+}
+
+
+#fmenu li {
+	display: inline-block;
+	padding: 0;
+	margin: 0px 10px 0px 0px;
+	width: auto;
+	height: 15px;
+	text-align: center;
+	
+	
+	
+}
+#fmenu li a {
+	display: inline-block;
+	color: white;
+	font-size: 13px;
+	
+}
+
+
+/* Fin footer */
+
+.color{
+	background-color:grey;
+  }
+  .color2{
+	background-color: black;
+  }
+  .color3{
+	color:red;
+  }
+
+  .button {
+    background-color:red; /* Green */
+    border: black;
+    color: black;
+    padding: 11px 27.5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    
+  }
+
+.color{
+  background-color:grey;
+}
+.color2{
+  background-color: black;
+}
+.color3{
+  color:red;
+}
+
+
+  .button {
+
+    border: black;
+    color: black;
+    padding: 11px 27.5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    
+  }
+
+/*responsive*/
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color:red;
+  text-align: center;
+  padding: 16px 50px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+/* Fond du gadget de la barre de recherche */
+
+/* Champ de saisie */
+#searchthis #search {
+  background-color: #ffffff;   /* Couleur de fond */
+  border-style: solid;   /* Style de la bordure  */
+  border-width: 1px;   /* Epaisseur de la bordure  */
+  border-color: #dddddd;   /* Couleur de la bordure  */
+  padding: 5px 10px 5px 10px;   /* Espace entre les bords et le contenu : haut droite bas gauche  */
+  width: 15%;   /* Permet d'ajuster la largeur du champ de saisie à 100% */
+  box-sizing: border-box;   /* Important */
+  font-family: Lato;   /* Police du texte */
+  font-size: 12px;   /* Taille de la police du texte */
+  font-weight: normal;   /* Graisse du texte : normal = normal ; bold = gras */
+  letter-spacing: 1px;   /* Espacement des caractères */
+}
+
+/* Bouton valider */
+#searchthis #search-btn {
+  background-color: red;   /* Couleur de fond */
+  border-style: solid;   /* Style de la bordure  */
+  border-width: 1px;   /* Epaisseur de la bordure  */
+  border-color: black;   /* Couleur de la bordure  */
+  padding: 5px 10px 5px 10px;   /* Espace entre les bords et le contenu : haut droite bas gauche  */
+  width: 10%;   /* Permet d'ajuster la largeur du champ de saisie à 100% */
+  box-sizing: border-box;   /* Important */
+  font-family: PT sans;   /* Police du texte */
+  font-size: 13px;   /* Taille de la police du texte */
+  font-weight: normal;   /* Graisse du texte : normal = normal ; bold = gras */
+  letter-spacing: 2px;   /* Espacement des caractères */
+  margin: 10px 0 0 0;   /* Espace autour du bouton : haut droite bas gauche  */
+  text-transform: uppercase;   /* Transforme le texte en majuscules */
+  color: #ffffff;   /* Couleur du texte */
+}
+
+/* Bouton valider quand survolé par la souris */
+#searchthis #search-btn:hover {
+  background-color: #ffffff;   /* Couleur de fond */
+  color: black;   /* Couleur du texte */
+  cursor: pointer;   /* Apparence du curseur comme pour un lien */
+}
+
+.centrer {
+  text-align: center;
+}
+
+.form-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+}
+
+.wrapper label {
+
+  padding-top: 15px;
+}
+
+html, body {
+  margin : 0;
+  display: table;
+  height: 100%;
+  width: 100%;
+
+
+}
+
+.annuaire {
+
+  width: 100px;
+}
+
+.container-profil{
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 100px ;
+  padding-bottom: 100px;
+
+}
+
+ul {
+
+  list-style-type: none;
+
+}
+
+.btp{
+  margin-top: 50px ;
+  display: flex;
+  justify-content:center;
+  
+}
+
+.container-profil img{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 150px;
+}
+
+#mail {
+  width: 200px;
+}
+
+.container-profil li {
+  margin-bottom: 10px;
+}
